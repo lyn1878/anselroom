@@ -43,15 +43,16 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          postsPerPage: 'ALL', // 显示所有博客文章
+          blogSidebarCount: 'ALL', // 确保侧边栏显示所有文章
+          blogSidebarTitle: 'All Blog Posts', // 侧边栏标题
+          
         },
         theme: {
           customCss: './src/css/custom.css',
